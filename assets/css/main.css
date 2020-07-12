@@ -3466,9 +3466,9 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
 		background: #fff;
-		height: 3em;
+		height: 3.5em;
 		left: 0;
-		line-height: 3em;
+		line-height: 3.5em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -3488,7 +3488,7 @@ input, select, textarea {
 			top: 0;
 		}
 		#header .image {
-			top: .4em;
+			vertical-align: middle;
 		}
 		#header svg {
 			stroke: #2b2e37;
@@ -4067,7 +4067,7 @@ input, select, textarea {
 			order: 1;
 			border-radius: 0;
 			width: 40%;
-			background-color: #0039ce;
+			background-color: rgba(0, 57, 206, 0.75);
 			padding: 2em 1em 2em 1em;
 			text-align: center;
 		}
