@@ -74,13 +74,13 @@
 					<div class="inner">
 						<section>
 							<h4>Отвечаем даже на спам</h4>
-							<form method="post" action="#">
+							<form method="post" action="ajax_form">
 								<div class="row gtr-uniform">
 									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Сюда имя" />
+										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Сюда имя" required/>
 									</div>
 									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Здесь email" />
+										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Здесь email" required/>
 									</div>
 									<div class="col-12">
 										<select name="demo-category" id="demo-category">
@@ -93,7 +93,7 @@
 										</select>
 									</div>
 									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human">
+										<input type="checkbox" id="demo-human" name="demo-human" required>
 										<label for="demo-human">Я не робот, честно.</label>
 									</div>
 									<div class="col-12">
@@ -135,6 +135,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/ajax.js"></script>
 
 	</body>
 </html>
