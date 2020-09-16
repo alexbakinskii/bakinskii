@@ -101,13 +101,13 @@
 							<form method="post" id="ajax_form">
 								<div class="row gtr-uniform">
 									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Сюда имя" required/>
+										<input type="text" name="name" id="demo-name" value="" placeholder="Сюда имя" required/>
 									</div>
 									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Здесь email" required/>
+										<input type="email" name="email" id="demo-email" value="" placeholder="Здесь email" required/>
 									</div>
 									<div class="col-12">
-										<select name="demo-category" id="demo-category">
+										<select name="category" id="demo-category">
 											<option value="">Выберите тему для разговора</option>
 											<option value="1">Стратегия</option>
 											<option value="1">Разработка</option>
@@ -121,13 +121,15 @@
 										<label for="demo-human">Я не робот, честно.</label>
 									</div>
 									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Тут писать текст" rows="6"></textarea>
+										<textarea name="message" id="demo-message" placeholder="Тут писать текст" rows="6"></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="actions">
 											<li><input type="submit" value="Отправить" class="primary" /></li>
 											<!-- <li><input type="reset" value="Я передумал" /></li> -->
 										</ul>
+										<div id="result_form" >
+										</div>
 									</div>
 								</div>
 									</form>
